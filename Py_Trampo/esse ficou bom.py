@@ -3,10 +3,6 @@ from tkinter import ttk
 from geopy.geocoders import Nominatim
 from geopy.distance import geodesic
 import csv
-import os
-
-
-print ("Diretorio Atual", os.getcwd())
 
 states_cities = {}  # Caminho CSV com estados e cidades
 with open('simplemaps_brazil_cities_basicv1.csv', newline='', encoding='utf-8') as csvfile:
