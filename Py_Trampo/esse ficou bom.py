@@ -3,10 +3,13 @@ from tkinter import ttk
 from geopy.geocoders import Nominatim
 from geopy.distance import geodesic
 import csv
+import os
 
 
-states_cities = {}##Caminho csv com estados e cidades
-with open('C:\\Users\\vinicius.domingues\\Documents\\PROJETOS\\VSCode\\Python\\simplemaps_brazil_cities_basicv1.csv', newline='', encoding='utf-8') as csvfile:
+print ("Diretorio Atual", os.getcwd())
+
+states_cities = {}  # Caminho CSV com estados e cidades
+with open('simplemaps_brazil_cities_basicv1.csv', newline='', encoding='utf-8') as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
         state = row['admin_name']
