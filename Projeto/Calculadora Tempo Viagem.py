@@ -55,6 +55,8 @@ root = tk.Tk()
 root.geometry("800x800")
 root.title("Calculadora de Dias de Viagem")
 
+root.iconbitmap('minhao.ico')
+
 
 tk.Label(root, text="Estado de Origem:", font="label 12 bold").pack(pady=10)
 origin_state_combobox = ttk.Combobox(root, values=list(states_cities.keys()), font="label 12")
