@@ -55,7 +55,7 @@ root = tk.Tk()
 root.geometry("800x800")
 root.title("Calculadora de Dias de Viagem")
 
-root.iconbitmap('minhao.ico')
+root.iconbitmap('caminhao.ico')
 
 
 tk.Label(root, text="Estado de Origem:", font="label 12 bold").pack(pady=10)
@@ -90,3 +90,4 @@ result_var.set("")
 tk.Label(root, textvariable=result_var, font="label 12 bold", wraplength=500).pack(pady=10)
 
 root.mainloop()
+    

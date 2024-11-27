@@ -3,7 +3,7 @@
 distancia = float(input('Digite a distancia da sua viagem? '))
 
 if distancia <=200:
-    print('O valor da sua passagem é de {:.2f} reais'.format((distancia*0.50)))
+    print('O valor da sua passagem é de \033[4;32m{:.2f}\033[m reais'.format((distancia*0.50)))
 else:
-    print('O valor da sua passagem é de {:.2f} reais'.format((distancia*0.45)))
+    print('O valor da sua passagem é de \033[4;32m{:.2f}\033[m reais'.format((distancia*0.45)))
     

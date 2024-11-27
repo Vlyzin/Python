@@ -4,6 +4,7 @@
 vel = float(input('Qual a velocidade do carro? '))
     
 if vel >80:
-    print('Você foi multado! Ta muito rapido pai! Você deve pagar {:.2f} reais de multa'.format((vel-80)*7))
+    print('Você foi \033[1;31mmultado\033[m! Ta muito rapido pai! Você deve pagar \033[4;32m{:.2f}\033[m reais de multa'.format((vel-80)*7))
 else:
-    print('Boa! Ta de boa')
+    print('\033[1;32mBoa! Ta de boa\033[m')
+    exit()

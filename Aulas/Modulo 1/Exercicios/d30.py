@@ -3,6 +3,6 @@
 n = int(input('Digite um número inteiro qualquer? '))
 
 if n % 2 == 0:
-    print ('Seu número é par!')
+    print ('Seu número é \033[1;97mpar\033[m!')
 else:
-    print ('Seu número é impar...')
+    print ('Seu número é \033[1;32mimpar\033[m...')

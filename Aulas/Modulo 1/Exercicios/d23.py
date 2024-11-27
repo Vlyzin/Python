@@ -7,4 +7,4 @@ d= numero // 10 % 10
 c = numero // 100 % 10
 m = numero // 1000 % 10
 
-print('O número {} tem \n{} unidades,\n{} dezenas,\n{} centenas e\n{} milhar(es)'.format(numero, (u),(d),(c),(m)))
+print('O número \033[4m{}\033[m tem \n\033[1;32m{}\033[m unidades,\n\033[1;97m{}\033[m dezenas,\n\033[1;36m{}\033[m centenas e\n\033[1;32{}\033[m milhar(es)'.format(numero, (u),(d),(c),(m)))
